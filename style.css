@@ -89,7 +89,53 @@ svg {
     height: 40px;
 }
 .my-work{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 25px;
+}
 
+.my-work-container{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    padding: 20px;
+    gap: 50px;
+    
+    
+}
+
+.card-image img {
+    max-width: 100%;
+    object-fit: contain;
+    
+}
+
+.card-content {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    min-height: 200px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    gap: 5px;
+    
+  
+}
+
+.card-content svg {
+    width: 30px;
+    height: 30px;
+}
+
+.project-name {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%; 
+    margin-left: 10px;;
+   
+    
 }
 
 .contact-me{
